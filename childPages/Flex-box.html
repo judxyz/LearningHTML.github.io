@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Used by the Keyboard -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Judy Zhu">
+    <meta name="description" content="Learning HTML by building a simple website">
+    <meta name="keywords" content="">
+    <meta name="keywords" content="boilerplate, starter code, HTML, learning">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-box Page</title>
+
+    <style>
+        div {border: thin line black;}
+        * {box-sizing: border-box;}
+        .header {
+            //border: 1px solid red;
+            //padding: 15px;
+        }
+        .menu {
+            width: 25%;
+            float: left;
+            padding: 15px;
+            border: 1px solid red;
+        }
+        .main {
+            float: left;
+            width: 50%;
+            padding: 15px;
+            border: 1px solid red;
+        }
+        .aside {
+            float: left;
+            width: 25%;
+            padding: 15 px;
+            border: 1px solid red;
+        }
+        .footer {
+            padding: 15px;
+            border: 1px solid red;
+        }
+    </style>
+
+    <noscript>Running Javascript is not necessary in the HTML Page ... FYI: your feature to execute scripts is turned off</noscript>
+</head>
+
+<body>
+    <div class="header"><header>3-Column Flex-box</header></div>
+    <div class="menu"><nav>Navigation</nav></div>
+    <div class="main">
+        <section><article>This is a section and article</article></section>
+        <section><article><p>This is a paragraph tag inside a section article</p></article></section>
+    </div>
+    <div class="aside">
+        <aside><br><br><br><br><br><br>
+            This is the aside space
+        </aside>
+    </div>
+</body>
+
+<footer>
+    <div class="footer">
+    <blockquote cite="https://github.com/judxyz/LearningHTML.github.io">
+        <!-- Date Accessed 20220706 -->
+    </blockquote>
+    <strong>"i like food" - </strong>
+    <em><a href="https://github.com/judxyz/LearningHTML.github.io" target="_blank">me</a></em>
+    <p>&copy Judy Zhu, powered by judxyz in Github</p>
+</footer>
+
+</html>
